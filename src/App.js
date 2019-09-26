@@ -19,7 +19,7 @@ class App extends Component {
 		return (
 			<div>
 				<h1 className='tc'>RoboFriends App</h1>
-				<SearchBox searchchange={this.onSearchChange}/>
+				<SearchBox SearchChange={this.onSearchChange}/>
 				<CardList robots={this.state.robots} />
 			</div>
 		);
@@ -27,14 +27,5 @@ class App extends Component {
 }
 
 
-// const App = () => {
-// 	return (
-// 		<div>
-// 			<h1 className='tc'>RoboFriends App</h1>
-// 			<SearchBox />
-// 			<CardList robots={robots} />
-// 		</div>
-// 	);
-// }
 
 export default App;
